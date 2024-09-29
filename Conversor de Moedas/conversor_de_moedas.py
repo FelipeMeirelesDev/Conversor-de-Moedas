@@ -1,10 +1,13 @@
 import tkinter
 import requests
 
+#Link da API:
 link = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,ARS-BRL"
 
+#Requisitando a API:
 req = requests.get(link).json()
-print("teste")
+
+#Função de converter as moedas:
 def converter(tipo):
     valor_recebido = float(valor.get())
 
