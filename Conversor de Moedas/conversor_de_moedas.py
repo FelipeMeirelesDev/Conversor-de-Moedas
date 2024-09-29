@@ -4,7 +4,7 @@ import requests
 link = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,ARS-BRL"
 
 req = requests.get(link).json()
-
+print("teste")
 def converter(tipo):
     valor_recebido = float(valor.get())
 
